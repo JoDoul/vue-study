@@ -9,9 +9,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  // 인스턴스 옵션 속성 or 컴포넌트 옵션 속성
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    'hello-world': HelloWorld,
   }
 }
 </script>
